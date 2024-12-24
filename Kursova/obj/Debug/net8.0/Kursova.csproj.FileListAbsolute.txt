@@ -1,0 +1,14 @@
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/bin/Debug/net8.0/Kursova
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/bin/Debug/net8.0/Kursova.deps.json
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/bin/Debug/net8.0/Kursova.runtimeconfig.json
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/bin/Debug/net8.0/Kursova.dll
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/bin/Debug/net8.0/Kursova.pdb
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.GeneratedMSBuildEditorConfig.editorconfig
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.AssemblyInfoInputs.cache
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.AssemblyInfo.cs
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.csproj.CoreCompileInputs.cache
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.dll
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/refint/Kursova.dll
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.pdb
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.genruntimeconfig.cache
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/ref/Kursova.dll
