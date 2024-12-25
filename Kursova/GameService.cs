@@ -25,24 +25,31 @@ public class GameService : IGameService
         _gameRepository.SaveGame(game);
     }
 
-    public void UpdatePlayerRatings(User player1, User player2, string result, int matchRating)
+    public void UpdatePlayerRatings(User currentUser1, User currentUser2, string result, int matchRating)
+{
+    if (result == $"{currentUser1.Username} wins!") 
     {
-        if (result == "win")
-        {
-            player1.Rating += matchRating;
-            player2.Rating = Math.Max(player2.Rating - matchRating, 0);
-        }
-        else if (result == "lose")
-        {
-            player2.Rating += matchRating;
-            player1.Rating = Math.Max(player1.Rating - matchRating, 0);
-        }
-        else // draw
-        {
-            player1.Rating += matchRating / 2;
-            player2.Rating += matchRating / 2;
-        }
+        currentUser1.Rating += matchRating;
+        currentUser2.Rating -= matchRating / 2;
     }
+    else if (result == $"{currentUser2.Username} wins!") 
+    {
+        currentUser2.Rating += matchRating;
+        currentUser1.Rating -= matchRating / 2;
+    }
+    else if (result == "draw") 
+    {
+        currentUser1.Rating += matchRating / 2;
+        currentUser2.Rating += matchRating / 2;
+    }
+    else
+    {
+        throw new Exception("Invalid game result!"); 
+    }
+    currentUser1.Rating = Math.Max(currentUser1.Rating, 0);
+    currentUser2.Rating = Math.Max(currentUser2.Rating, 0);
+}
+
 
     public List<Game> GetMatchHistory(int userId)
     {

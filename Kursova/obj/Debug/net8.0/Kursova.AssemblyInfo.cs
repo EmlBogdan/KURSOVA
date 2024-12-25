@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kursova")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1939a34c9c3a5c224c9d09d6121a3fcd38dda124")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kursova")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kursova")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

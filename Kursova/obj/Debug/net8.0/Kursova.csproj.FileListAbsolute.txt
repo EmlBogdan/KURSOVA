@@ -12,3 +12,4 @@
 /home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.pdb
 /home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.genruntimeconfig.cache
 /home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/ref/Kursova.dll
+/home/bogdan/Рабочий стол/labs/OOP_labs/KURSOVA/Kursova/obj/Debug/net8.0/Kursova.sourcelink.json

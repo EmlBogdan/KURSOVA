@@ -111,9 +111,23 @@ public class Program
                         opponent = user != null ? user.Username : "Unknown";
                     }
 
-                    string result = game.Player1Id == currentUser.Id
-                        ? game.Result
-                        : game.Result == "win" ? "lose" : game.Result == "lose" ? "win" : "draw";
+
+                    string result;
+
+                    if (game.Result.Contains(currentUser.Username + " wins!"))
+                    {
+                        result = "win";
+                    }
+                    else if (game.Result.Contains("wins!")) // Если победитель другой
+                    {
+                        result = "lose";
+                    }
+                    else
+                    {
+                        result = "draw";
+                    }
+
+
 
                     Console.WriteLine($"| {game.Id,-7} | {opponent,-14} | {result,-7} | {game.MatchRating,-12} |");
                 }
